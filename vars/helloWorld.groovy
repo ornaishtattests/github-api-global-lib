@@ -3,6 +3,6 @@ def call(Map config = [:]) {
         id: "ARTIFACTORY_SERVER",
         url: 'https://ornaishtat.jfrog.io/artifactory/',
         username: 'admin',
-        password: credentials.('TOKEN'),    
+        password: $TOKEN,    
     )
 }
