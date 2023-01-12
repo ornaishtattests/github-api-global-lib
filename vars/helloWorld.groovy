@@ -1,9 +1,6 @@
 def call(Map config = [:]) {
     rtServer (
-        id: "local-artifactory"
-        url: http://localhost:8082/artifactory/
-        username: admin
-        password: Password1!
-        
+        id: "saas"
+        url: http://localhost:8081/artifactory/
     )
 }
